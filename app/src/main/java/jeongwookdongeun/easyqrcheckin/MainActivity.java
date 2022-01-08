@@ -317,9 +317,9 @@ public class MainActivity extends AppCompatActivity {
         //이미 실행된 적이 있다면 재로드
         if (isNaverMode) {
             if (action == null || !action.equals("First created")) {
-                Intent intent = new Intent(this, MainActivity.class);
+                /*Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
-                finish();
+                finish();*/
             } else {
                 getIntent().setAction(null);
             }
